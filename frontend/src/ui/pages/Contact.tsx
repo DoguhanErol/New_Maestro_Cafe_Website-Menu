@@ -1,7 +1,7 @@
 
 const Contact:React.FC = () => {
   return (
-    <main>
+    <main className="h-24">
         Contact Page
     </main>
   )
