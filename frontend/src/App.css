@@ -4,6 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
+.active-navigation {
+  color: #9b3333; /* Kırmızı arka plan rengi */
+}
+.active-navigation:focus {
+  background-color: yellow;
+}
 
 .logo {
   height: 6em;
