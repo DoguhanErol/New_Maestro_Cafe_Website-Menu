@@ -1,13 +1,12 @@
 import * as React from "react"
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logoImg from "../../../assets/logo.png";
 import { adminLoginUrl } from '../../../logic/Config';
 
 const Navbar:React.FC = () => {
-    const location = useLocation();
 
   return (
-        <nav className="navbar bg-base-300 rounded-sm">
+        <nav aria-label="main" role="navigation" className="navbar bg-base-300 rounded-sm">
           <section className="navbar-start">
 
              {/* Mobile */}

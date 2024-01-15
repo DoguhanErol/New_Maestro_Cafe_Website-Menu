@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 100;
 }
 .active-navigation {
   color: #9b3333; /* Kırmızı arka plan rengi */
