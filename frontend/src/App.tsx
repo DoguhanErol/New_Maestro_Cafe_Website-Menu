@@ -1,6 +1,6 @@
 import { QueryClientProvider, QueryClient} from 'react-query'
 import './App.css'
-import AppRoutes from './AppRoutes';
+import Layout from './ui/components/shared/Layout';
 
 const reactQueryClient =  new QueryClient();
 
@@ -9,8 +9,7 @@ function App() {
   return (
     <>
         <QueryClientProvider client={reactQueryClient}>
-          <AppRoutes />
-          
+        <Layout />
         </QueryClientProvider>
     </>
   )
