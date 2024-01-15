@@ -6,8 +6,8 @@ import { adminLoginUrl } from '../../../logic/Config';
 const Navbar:React.FC = () => {
 
   return (
-        <nav aria-label="main" role="navigation" className="navbar bg-base-300 rounded-sm">
-          <section className="navbar-start">
+        <nav aria-label="main" role="navigation" className="navbar  bg-base-300 rounded-sm">
+          <section className="navbar-start ">
 
              {/* Mobile */}
             <div className="dropdown">
@@ -22,8 +22,8 @@ const Navbar:React.FC = () => {
             </div>
             {/* Logo */}
             <a href="/" className="btn btn-ghost text-xl w-auto h-auto">
-            <img className=" w-16" src={logoImg} alt="Maestro Logo" />
-            <h2 className="text-neutral"> <span className="char-special text-2xl">M</span>aestro Cafe</h2>
+            <img className="w-14 sm:w-16" src={logoImg} alt="Maestro Logo" />
+            <h2 className=" text-neutral text-lg md:text-xl"> <span className="char-special text-xl md:text-2xl">M</span>aestro Cafe</h2>
             </a>
 
           </section>
@@ -38,8 +38,8 @@ const Navbar:React.FC = () => {
       </section>
 
             {/* Desktop & Mobile*/}
-          <section className="navbar-end">
-            <Link to={adminLoginUrl} className="btn btn-primary text-gray-200 text-base">Admin Girişi</Link>
+          <section className="navbar-end hidden sm:inline-flex">
+            <Link to={adminLoginUrl} className="btn  btn-primary text-gray-200 text-xs sm:text-base">Admin Girişi</Link>
           </section>
         </nav>
   )

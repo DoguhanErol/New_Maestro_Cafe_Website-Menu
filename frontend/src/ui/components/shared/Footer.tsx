@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Footer:React.FC = () => {
   return (
-    <footer className="footer footer-center p-10 bg-base-300 text-primary-content rounded-sm">
+    <footer className="footer footer-center p-10 bg-base-300 text-primary-content rounded-sm z-50">
       {/* Logo and Copyright */}
       <aside>
         <Link className='btn btn-ghost h-auto' to={'/'}>

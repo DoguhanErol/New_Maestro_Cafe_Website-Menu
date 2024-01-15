@@ -4,7 +4,7 @@ import Navbar from "./Navbar"
 
 const Header:React.FC = () => {
   return (
-    <header>
+    <header className="z-50">
         <Navbar />
         <Breadcrumbs />
     </header>
