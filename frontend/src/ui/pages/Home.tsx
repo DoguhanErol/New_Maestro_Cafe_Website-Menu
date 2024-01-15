@@ -1,10 +1,11 @@
 import * as React from "react"
+import WelcomeHero from "../components/home/WelcomeHero"
 
 const Home:React.FC = () => {
   return (
     <>
-    <main className="h-24">
-        Home Page
+    <main>
+        <WelcomeHero />
     </main>
     </>
   )
