@@ -23,7 +23,7 @@ const Navbar:React.FC = () => {
             {/* Logo */}
             <a href="/" className="btn btn-ghost text-xl w-auto h-auto">
             <img className=" w-16" src={logoImg} alt="Maestro Logo" />
-            <h2 className="text-neutral"> <span className="text-red-700 text-2xl font-light">M</span>aestro Cafe</h2>
+            <h2 className="text-neutral"> <span className="char-special text-2xl">M</span>aestro Cafe</h2>
             </a>
 
           </section>
