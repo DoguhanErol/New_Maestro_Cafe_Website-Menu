@@ -1,5 +1,6 @@
 import * as React from "react"
 import DiffImages from "../components/home/DiffImages"
+import Stats from "../components/home/Stats"
 import WelcomeHero from "../components/home/WelcomeHero"
 
 const Home:React.FC = () => {
@@ -9,6 +10,8 @@ const Home:React.FC = () => {
         <WelcomeHero />
         <div className="divider my-20"></div>
         <DiffImages />
+        <div className="divider my-20"></div>
+        <Stats />
         <div className="divider my-20"></div>
 
     </main>
