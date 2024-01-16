@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "react-router-dom"
 
 const WelcomeHero:React.FC = () => {
   return (
@@ -9,7 +10,7 @@ const WelcomeHero:React.FC = () => {
             <div className="max-w-md">
               <h1 className="mb-5 text-5xl font-bold">Hoşgeldiniz</h1>
               <p className="mb-5">Mila Maestro Cafe Websitesine Hoşgeldiniz</p>
-              <button className="btn btn-secondary">Menü</button>
+              <Link to={'/menu'} className="btn btn-secondary">Menü</Link>
             </div>
           </div>
         </section>
