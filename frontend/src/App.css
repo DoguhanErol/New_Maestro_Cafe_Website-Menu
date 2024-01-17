@@ -2,12 +2,14 @@
   max-width: 1366px;
   margin: 0 auto;
   padding: 1rem;
+  padding-bottom: 0rem;
   text-align: center;
   font-family: "Libre Baskerville", serif;
   font-weight: 100;
 }
+
 .welcome-hero {
-  background-image: url("./assets/welcomeHero.jpeg");
+  background-image: url("./assets/welcomeHero.webp");
 }
 .char-special {
   --tw-text-opacity: 1;

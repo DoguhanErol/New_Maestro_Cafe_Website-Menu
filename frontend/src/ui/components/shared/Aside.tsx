@@ -7,12 +7,12 @@ const Aside:React.FC = () => {
     <aside className="">
     <section>
         <a href={whatsappUrl } target='blank' className='fixed transition-all active:outline-offset-8 hover:scale-105 hover:animate-0 hover:border-green-50 shadow-green-500 shadow-2xl rounded-full border-2 border-green-500 outline-double  right-2 bottom-32 z-50 animate-[pulse_2s_infinite]'>
-            <img src={whatsappIcon} alt="Whatsapp Button" />
+            <img className='w-12' src={whatsappIcon} alt="Whatsapp Button" />
         </a>
     </section>
     <section>
-        <a href={instagramUrl} target='blank' className='fixed transition-all active:outline-offset-8 hover:scale-105 hover:animate-0 hover:border-green-50 shadow-purple-500 shadow-2xl rounded-full border-2 border-purple-500 outline-double  right-2 bottom-10 z-50 animate-[pulse_1s_infinite]'>
-            <img src={instagramIcon} alt="Whatsapp Button" />
+        <a href={instagramUrl} target='blank' className='fixed transition-all active:outline-offset-8 hover:scale-105 hover:animate-0 hover:border-green-50 shadow-purple-500 shadow-2xl rounded-full border-2 border-purple-500 outline-double  right-2 bottom-16 z-50 animate-[pulse_1s_infinite]'>
+            <img className='w-12' src={instagramIcon} alt="Whatsapp Button" />
         </a>
     </section>
     </aside>

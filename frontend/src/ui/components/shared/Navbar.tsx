@@ -6,7 +6,7 @@ import { adminLoginUrl } from '../../../logic/Config';
 const Navbar:React.FC = () => {
 
   return (
-        <nav aria-label="main" role="navigation" className="navbar  bg-base-300 rounded-sm">
+        <nav aria-label="main" role="navigation" className="navbar  bg-base-300  shadow-xl rounded-md">
           <section className="navbar-start ">
 
              {/* Mobile */}
