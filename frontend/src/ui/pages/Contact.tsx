@@ -1,9 +1,10 @@
+import GoogleMaps from "../components/contact/GoogleMaps"
 
 
 const Contact:React.FC = () => {
   return (
     <main>
-      Iletisim Sayfasi
+      <GoogleMaps />
     </main>
   )
 }
