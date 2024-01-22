@@ -7,10 +7,23 @@
   font-family: "Libre Baskerville", serif;
   font-weight: 100;
 }
+@media screen and (max-width: 640px) {
+  /* Telefonlar için özel stiller */
+  #root {
+    padding: 0rem;
+  }
+}
+hr {
+  border: none;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+}
 
 .welcome-hero {
   background-image: url("./assets/welcomeHero.webp");
 }
+
 .char-special {
   --tw-text-opacity: 1;
   color: rgb(185 28 28 / var(--tw-text-opacity));

@@ -9,12 +9,14 @@ const Home:React.FC = () => {
     <>
     <main>
         <WelcomeHero />
-        <div className="divider my-20"></div>
+        <hr className="divider my-20" />
         <ReservationHero />
-        <div className="divider my-20"></div>
+        <hr className="divider my-20" />
         <DiffImages />
-        <div className="divider my-20"></div>
+        <hr className="divider my-20" />
         <Stats />
+        <hr className="divider my-20" />
+
     </main>
     </>
   )

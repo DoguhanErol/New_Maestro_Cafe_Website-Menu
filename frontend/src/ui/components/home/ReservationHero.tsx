@@ -9,7 +9,7 @@ const ReservationHero:React.FC = () => {
             <img src={heroImg} className="max-w-56 sm:max-w-sm rounded-lg shadow-2xl" />
             <div>
               <h2 className="text-3xl font-bold">Etkinlik Rezarvasyonu</h2>
-              <p className="py-6">Merhaba kafeyi etkinlikler için kiralamak ve benzer durumlar için iletişime geçebilirsiniz. Doğum günleri, düğün resepsiyonları, iş toplantıları ve daha fazlası için özel tekliflerimiz bulunmaktadır. </p>
+              <p className="py-6 text-left">Merhaba kafeyi etkinlikler için kiralamak ve benzer durumlar için iletişime geçebilirsiniz. Doğum günleri, düğün resepsiyonları, iş toplantıları ve daha fazlası için özel tekliflerimiz bulunmaktadır. </p>
               <Link to={'/iletisim'} className="btn btn-secondary">İletişim</Link>
             </div>
           </article>
