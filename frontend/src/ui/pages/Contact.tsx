@@ -1,5 +1,6 @@
 import TabCards from "../components/contact/TabCards"
 import GoogleMaps from "../components/contact/GoogleMaps"
+import Faq from "../components/contact/Faq"
 
 
 const Contact:React.FC = () => {
@@ -10,6 +11,9 @@ const Contact:React.FC = () => {
       <hr className="divider my-20" />
       <GoogleMaps />
       <hr className="divider my-20" />
+      <Faq />
+      <hr className="my-10" />
+
     </main>
   )
 }
