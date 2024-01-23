@@ -13,7 +13,6 @@ const Contact:React.FC = () => {
       <hr className="divider my-20" />
       <Faq />
       <hr className="my-10" />
-
     </main>
   )
 }

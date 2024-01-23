@@ -15,7 +15,7 @@ const Home:React.FC = () => {
         <DiffImages />
         <hr className="divider my-20" />
         <Stats />
-        <hr className="divider my-20" />
+        <hr className="my-10" />
 
     </main>
     </>
