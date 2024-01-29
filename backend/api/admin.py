@@ -13,9 +13,9 @@ class ProductAdmin(admin.ModelAdmin):
 
 
 class CategoryAdmin(admin.ModelAdmin):
-    list_display = ('catagory_name',)
-    search_fields = ('catagory_name',)
-    ordering = ('catagory_name',)
+    list_display = ('category_name',)
+    search_fields = ('category_name',)
+    ordering = ('category_name',)
 
 
 admin.site.register(Category, CategoryAdmin)

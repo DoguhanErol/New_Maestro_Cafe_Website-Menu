@@ -1,10 +1,15 @@
-from django.shortcuts import render
 
-from rest_framework.decorators import api_view
+from rest_framework.views import APIView
 from rest_framework.response import Response
-# Create your views here.
+from rest_framework import status
+from .models import Product
+from .serializers import ProductSerializer
 
-
-@api_view(['GET'])
-def index(request):
-    return Response({"Success": "The setup success"})
+class ProductListByCategoryView(APIView):
+    def get(self, request, category_id):
+        try:
+            products = Product.objects.filter(category_id = category_id)
+            serializer = ProductSerializer(products, many=True)
+            return Response(serializer.data)
+        except Product.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
