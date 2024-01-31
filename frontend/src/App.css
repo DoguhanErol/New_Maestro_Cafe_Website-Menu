@@ -7,6 +7,17 @@
   font-family: "Libre Baskerville", serif;
   font-weight: 100;
 }
+
+::-webkit-scrollbar {
+  height: 4px;
+  width: 1px;
+  background: rgb(201, 187, 187);
+}
+::-webkit-scrollbar-thumb:horizontal {
+  background: rgb(244, 51, 51);
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 640px) {
   /* Telefonlar için özel stiller */
   #root {
@@ -24,6 +35,31 @@ hr {
   background-image: url("./assets/welcomeHero.webp");
 }
 
+.active-link {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+
+  padding-left: 1.5rem /* 24px */;
+  padding-right: 1.5rem /* 24px */;
+  padding-top: 0.2rem /* 8px */;
+  padding-bottom: 0.2rem /* 8px */;
+  border-bottom-width: 4px;
+  --tw-border-opacity: 1;
+  border-color: #f1f1e6;
+}
+.deactive-link {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding-left: 1.5rem /* 24px */;
+  padding-right: 1.5rem /* 24px */;
+  padding-top: 0.2rem /* 8px */;
+  padding-bottom: 0.2rem /* 8px */;
+  border-bottom-width: 4px;
+  --tw-border-opacity: 1;
+  border-color: rgb(55 65 81 / var(--tw-border-opacity));
+}
 .char-special {
   --tw-text-opacity: 1;
   color: rgb(185 28 28 / var(--tw-text-opacity));
