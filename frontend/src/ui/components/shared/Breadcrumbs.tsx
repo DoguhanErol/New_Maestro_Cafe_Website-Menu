@@ -9,13 +9,14 @@ const Breadcrumbs: React.FC = () => {
   return (
     <nav className="text-xs text-primary breadcrumbs" aria-label="Breadcrumb" role="navigation">
       <ul>
-      <li>
+        <li>
           <img src={homeIcon} alt="Home Icon" />
         </li>
         <li>
           <Link to="/">ANA SAYFA</Link>
         </li>
-        {pathnames.map((name, index) => {
+        {pathnames.map((encodedName, index) => { // Değişiklik burada
+          const name = decodeURIComponent(encodedName); // Değişiklik burada
           const routeTo = `/${pathnames.slice(0, index + 1).join('/')}`;
           const isLast = index === pathnames.length - 1;
           return (
