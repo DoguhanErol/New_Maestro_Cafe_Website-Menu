@@ -11,9 +11,8 @@ const AppRoutes = () => {
           <Route path='/'  element={<Home />}/>
           <Route path='/iletisim'  element={<Contact />}/>
           <Route path='/menu'  element={<Menu />}/>
-          <Route path='/menu/:categoryName'  element={<Menu />}/>
+          <Route path='/menu/:categoryId'  element={<Menu />}/>
           <Route path='*'  element={'Error'}/>
-
       </Routes>
     </>
   )

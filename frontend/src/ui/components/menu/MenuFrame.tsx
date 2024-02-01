@@ -4,6 +4,7 @@ import { TCategory } from "../../../logic/Types";
 import { fetchCategories } from "../../../logic/Requests";
 import MenuNav from "./MenuNav"
 import Loading from "../shared/Loading";
+import MenuCard from "./MenuCard";
 
 const MenuFrame:React.FC = () => {
 
@@ -26,12 +27,12 @@ const MenuFrame:React.FC = () => {
 
   return (
     <>
-    <section className=" w-auto border-8">
+    <section className="menu-bg w-auto border-8">
         <header>
             <MenuNav categories={categories.data} />
         </header>
         <article>
-            Menu Card Component
+          <MenuCard />
         </article>
     </section>
     </>

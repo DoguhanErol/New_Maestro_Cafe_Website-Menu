@@ -1,6 +1,5 @@
 export type TCategory = {
-    categoryId: number;
-    categoryName: string;
+    categoryId: string;
 }
 export type TProduct = {
     id: number;

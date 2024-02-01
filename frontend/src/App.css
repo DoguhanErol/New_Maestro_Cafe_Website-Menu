@@ -34,12 +34,18 @@ hr {
 .welcome-hero {
   background-image: url("./assets/welcomeHero.webp");
 }
+.menu-bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/menuBg.webp");
+}
 
+/* Menu Navigation Active One Style */
 .active-link {
   display: flex;
   align-items: center;
   flex-shrink: 0;
-
   padding-left: 1.5rem /* 24px */;
   padding-right: 1.5rem /* 24px */;
   padding-top: 0.2rem /* 8px */;
@@ -48,6 +54,7 @@ hr {
   --tw-border-opacity: 1;
   border-color: #f1f1e6;
 }
+/* Menu Navigation Deactive Ones Style */
 .deactive-link {
   display: flex;
   align-items: center;
