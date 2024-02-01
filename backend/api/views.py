@@ -6,7 +6,7 @@ from .models import Product, Category
 from .serializers import ProductSerializer,CategorySerializer
 
 class ProductListByCategoryView(APIView):
-    def get(self, request, category_id):
+    def get(self, request, category_id:str):
         try:
             products = Product.objects.filter(category_id = category_id)
             serializer = ProductSerializer(products, many=True)
