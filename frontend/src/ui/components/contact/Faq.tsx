@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "react-router-dom"
 
 const Faq:React.FC = () => {
   return (
@@ -11,7 +12,13 @@ const Faq:React.FC = () => {
     			<details>
     				<summary className="py-2 outline-none cursor-pointer focus:underline text-primary">Kafeniz hangi saatler arasında açıktır?</summary>
     				<div className="px-4 pb-4">
-    					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde neque in fugiat magni, quas animi enim veritatis deleniti ex. Impedit.</p>
+    					<p>Kafemiz sabah 10.00'da açılıyor ve gece 00.30'da kapanıyor.</p>
+    				</div>
+    			</details>
+				<details>
+    				<summary className="py-2 outline-none cursor-pointer focus:underline text-primary">Özel etkinlikler için kafeyi kiralayabilir miyiz?</summary>
+    				<div className="px-4 pb-4">
+    					<p>Elbette, daha detaylı bilgi için <Link className="text-red-400 underline" to={'/iletisim'} >iletişime</Link> geçiniz.</p>
     				</div>
     			</details>
                 <details>
@@ -30,6 +37,12 @@ const Faq:React.FC = () => {
     				<summary className="py-2 outline-none cursor-pointer focus:underline text-primary">Hangi ödeme yöntemlerini kabul ediyorsunuz?</summary>
     				<div className="px-4 pb-4">
     					<p>Kafe olarak nakit ve kredi kartı ödemelerini kabul ediyoruz.</p>
+    				</div>
+    			</details>
+				<details>
+    				<summary className="py-2 outline-none cursor-pointer focus:underline text-primary">Kafede hangi tip ürünler satıyorsunuz?</summary>
+    				<div className="px-4 pb-4">
+    					<p>Ürünler için <Link className="text-red-400 underline" to={'/menu'} >menüye</Link> göz atabilirsiniz.</p>
     				</div>
     			</details>
                 

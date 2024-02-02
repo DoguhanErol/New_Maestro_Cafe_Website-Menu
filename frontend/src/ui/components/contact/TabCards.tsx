@@ -11,7 +11,7 @@ const TabCards:React.FC = () => {
       </article>
 
       <input type="radio" name="my_tabs_2" role="tab" className="tab text-base text-primary" aria-label="İletişim"  checked />
-      <article role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
+      <article  role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
         <InfosCard />
       </article>
     </section>
