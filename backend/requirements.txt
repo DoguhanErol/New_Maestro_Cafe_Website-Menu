@@ -1,0 +1,10 @@
+asgiref==3.7.2
+Django==3.2
+django-cors-headers==4.3.1
+django-jazzmin==2.6.0
+djangorestframework==3.14.0
+djangorestframework-camel-case==1.4.2
+psycopg2-binary==2.9.9
+pytz==2023.3.post1
+sqlparse==0.4.4
+typing_extensions==4.9.0
