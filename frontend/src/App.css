@@ -31,9 +31,6 @@ hr {
   padding: 0;
 }
 
-.welcome-hero {
-  background-image: url("./assets/welcomeHero.webp");
-}
 .menu-bg {
   background-position: center;
   background-repeat: no-repeat;

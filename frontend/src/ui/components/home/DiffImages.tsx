@@ -7,10 +7,10 @@ const DiffImages:React.FC = () => {
     <>
         <section className="diff aspect-[16/9] max-h-[32rem] shadow-xl rounded-md">
           <figcaption className="diff-item-1">
-            <img alt="daisy" src={diff1} />
+            <img alt="Diff Image 1" src={diff1} />
           </figcaption>
           <figcaption className="diff-item-2">
-            <img alt="daisy" src={diff2} />
+            <img alt="Diff Image 2" src={diff2} />
           </figcaption>
           <div className="diff-resizer"></div>
         </section>

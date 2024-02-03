@@ -1,10 +1,12 @@
 import * as React from "react"
 import { Link } from "react-router-dom"
+import welcomeHeroImg from "../../../assets/welcomeHero.webp";
 
 const WelcomeHero:React.FC = () => {
   return (
     <>
-        <section className="hero welcome-hero min-h-screen shadow-xl rounded-sm">
+        <section className="hero min-h-screen shadow-xl rounded-sm">
+          <img loading="lazy" className="w-full h-full" src={welcomeHeroImg} alt="Hero Image Cafe Picture" />
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
