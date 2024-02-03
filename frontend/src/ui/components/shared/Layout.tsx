@@ -3,6 +3,7 @@ import AppRoutes from "../../../AppRoutes";
 import Header from "./Header";
 import Footer from "./Footer";
 import Aside from "./Aside";
+import DeveloperContact from "./DeveloperContact";
 
 const Layout:React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const Layout:React.FC = () => {
         <Header />
         <Aside />
         <AppRoutes />
+        <DeveloperContact />
         <Footer />
     </>
   )
