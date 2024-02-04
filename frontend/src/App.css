@@ -38,6 +38,10 @@ hr {
   background-image: url("./assets/menuBg.webp");
 }
 
+.welcome-hero {
+  background-image: url("./assets/welcomeHero.webp");
+}
+
 /* Menu Navigation Active One Style */
 .active-link {
   display: flex;

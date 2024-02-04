@@ -12,7 +12,6 @@ const DiffImages:React.FC = () => {
           <figcaption className="diff-item-2">
             <img alt="Diff Image 2" src={diff2} />
           </figcaption>
-          <div className="diff-resizer"></div>
         </section>
     </>
   )

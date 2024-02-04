@@ -10,38 +10,38 @@ const Faq:React.FC = () => {
     		<h2 className="mb-12 text-4xl font-bold leadi text-center sm:text-5xl">Sıkça Sorulan Sorular</h2>
     		<div className="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 dark:divide-gray-700">
     			<details>
-    				<summary className="py-2 outline-none cursor-pointer focus:underline  bg-primary text-primary-content sm:text-xl font-semibold">Kafeniz hangi saatler arasında açıktır?</summary>
-    				<div className="bg-secondary text-secondary-content px-4 pb-4">
+    				<summary className="py-2 outline-none cursor-pointer focus:underline   text-primary-content sm:text-xl font-semibold">Kafeniz hangi saatler arasında açıktır?</summary>
+    				<div className=" text-secondary-content px-4 pb-4">
     					<p>Kafemiz sabah 10.00'da açılıyor ve gece 00.30'da kapanıyor.</p>
     				</div>
     			</details>
 				<details>
-    				<summary className="py-2 outline-none cursor-pointer focus:underline  bg-primary text-primary-content sm:text-xl font-semibold">Özel etkinlikler için kafeyi kiralayabilir miyiz?</summary>
-    				<div className="bg-secondary text-secondary-content px-4 pb-4">
+    				<summary className="py-2 outline-none cursor-pointer focus:underline   text-primary-content sm:text-xl font-semibold">Özel etkinlikler için kafeyi kiralayabilir miyiz?</summary>
+    				<div className=" text-secondary-content px-4 pb-4">
     					<p>Elbette, daha detaylı bilgi için iletişime geçiniz.</p>
     				</div>
     			</details>
                 <details>
-    				<summary className="py-2 outline-none cursor-pointer focus:underline  bg-primary text-primary-content sm:text-xl font-semibold">WiFi hizmetiniz var mı?</summary>
-    				<div className="bg-secondary text-secondary-content px-4 pb-4">
+    				<summary className="py-2 outline-none cursor-pointer focus:underline   text-primary-content sm:text-xl font-semibold">WiFi hizmetiniz var mı?</summary>
+    				<div className=" text-secondary-content px-4 pb-4">
     					<p>Evet, kafemizde ücretsiz WiFi hizmeti bulunmaktadır. Şifre için qr kodu okutabilirsiniz veya garsonlardan yardım alabilirsiniz.</p>
     				</div>
     			</details>
                 <details>
-    				<summary className="py-2 outline-none cursor-pointer focus:underline  bg-primary text-primary-content sm:text-xl font-semibold">Kafe içinde laptop kullanabilir miyim?</summary>
-    				<div className="bg-secondary text-secondary-content px-4 pb-4">
+    				<summary className="py-2 outline-none cursor-pointer focus:underline   text-primary-content sm:text-xl font-semibold">Kafe içinde laptop kullanabilir miyim?</summary>
+    				<div className=" text-secondary-content px-4 pb-4">
     					<p>Tabii ki! Kafemizde çalışmak isteyen misafirlerimiz için ücretsiz WiFi ve priz hizmeti bulunmaktadır.</p>
     				</div>
     			</details>
                 <details>
-    				<summary className="py-2 outline-none cursor-pointer focus:underline  bg-primary text-primary-content sm:text-xl font-semibold">Hangi ödeme yöntemlerini kabul ediyorsunuz?</summary>
-    				<div className="bg-secondary text-secondary-content px-4 pb-4">
+    				<summary className="py-2 outline-none cursor-pointer focus:underline   text-primary-content sm:text-xl font-semibold">Hangi ödeme yöntemlerini kabul ediyorsunuz?</summary>
+    				<div className=" text-secondary-content px-4 pb-4">
     					<p>Kafe olarak nakit ve kredi kartı ödemelerini kabul ediyoruz.</p>
     				</div>
     			</details>
 				<details>
-    				<summary className="py-2 outline-none cursor-pointer focus:underline  bg-primary text-primary-content sm:text-xl font-semibold">Kafede hangi tip ürünler satıyorsunuz?</summary>
-    				<div className="bg-secondary text-secondary-content px-4 pb-4">
+    				<summary className="py-2 outline-none cursor-pointer focus:underline   text-primary-content sm:text-xl font-semibold">Kafede hangi tip ürünler satıyorsunuz?</summary>
+    				<div className=" text-secondary-content px-4 pb-4">
     					<p>Ürünler için <Link className="text-red-200 underline" to={'/menu'} >menüye</Link> göz atabilirsiniz.</p>
     				</div>
     			</details>

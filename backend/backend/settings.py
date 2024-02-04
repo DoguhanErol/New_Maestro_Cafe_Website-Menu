@@ -24,8 +24,11 @@ SECRET_KEY = 'django-insecure-3m!4t7gj40t^x+%mn)+9k9tw_qypx9qu!dn41y$*8e2uh042_l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['https://milamaestro.com','milamaestro.com']
+# CORS_ALLOW_ALL_ORIGINS = True  
+CORS_ALLOWED_ORIGINS = [
+    "https://milamaestro.com",
+]
 
 # Application definition
 
@@ -43,6 +46,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -54,7 +58,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'backend.urls'
-CORS_ALLOW_ALL_ORIGINS = True  # Geliştirme aşamasında tüm origin'lere izin ver
 
 TEMPLATES = [
     {
@@ -132,7 +135,8 @@ STATICFILES_DIRS = (
     BASE_DIR / 'static',
 )
 
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_ROOT = BASE_DIR / 'static'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Media
 MEDIA_URL = '/media/'

@@ -1,5 +1,5 @@
 import * as React from "react"
-import DiffImages from "../components/home/DiffImages"
+import Carousel from "../components/home/Carousel"
 import ReservationHero from "../components/home/ReservationHero"
 import Stats from "../components/home/Stats"
 import WelcomeHero from "../components/home/WelcomeHero"
@@ -12,7 +12,7 @@ const Home:React.FC = () => {
         <hr className="divider my-20" />
         <ReservationHero />
         <hr className="divider my-20" />
-        <DiffImages />
+        <Carousel />
         <hr className="divider my-20" />
         <Stats />
         <hr className="my-10" />
